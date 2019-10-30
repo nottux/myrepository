@@ -1,0 +1,664 @@
+﻿
+
+        -------- START OF LOG --------
+
+15:07:04 LOG:  Core version: $Version: SE2017_PC_dev; SeriousSam2017_Executables-Linux-Final; 440323 2019-06-07 00:00:17 @builderl01; Linux-x64-Static-Final-Default$
+15:07:04 LOG:  Command:  $
+15:07:04 LOG:  Initializing timer.
+15:07:04 LOG:  Timestamp: 2019/10/30 15:07:03
+15:07:04 LOG:  Binary name: Sam2017
+15:07:04 LOG:  Binary soft path: Bin/x64/
+15:07:04 LOG:  Binary hard path: /mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/
+15:07:04 LOG:  Application directory: /mnt/Toshiba-blue/common/Serious Sam Fusion 2017/
+15:07:04 LOG:  
+15:07:04 LOG:  * OS...
+15:07:04 LOG:  Type: Linux
+15:07:04 LOG:  Kernel: 5.4.0-050400rc5-generic
+15:07:04 LOG:  Version: #201910271430 SMP Sun Oct 27 18:33:09 UTC 2019
+15:07:04 LOG:  Architecture: x86_64
+15:07:04 LOG:  Output of lsb_release: Distributor ID: Ubuntu
+15:07:04 LOG:   Description: Pop!_OS 19.10
+15:07:04 LOG:   Release: 19.10
+15:07:04 LOG:   Codename: eoan
+15:07:04 LOG:   ERROR: ld.so: object '/home/utku2/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+15:07:04 LOG:  
+15:07:04 LOG:  /etc/*-release: DISTRIB_ID=Ubuntu
+15:07:04 LOG:   DISTRIB_RELEASE=19.10
+15:07:04 LOG:   DISTRIB_CODENAME=eoan
+15:07:04 LOG:   DISTRIB_DESCRIPTION="Pop!_OS 19.10"
+15:07:04 LOG:   NAME="Pop!_OS"
+15:07:04 LOG:   VERSION="19.10"
+15:07:04 LOG:   ID=ubuntu
+15:07:04 LOG:   ID_LIKE=debian
+15:07:04 LOG:   PRETTY_NAME="Pop!_OS 19.10"
+15:07:04 LOG:   VERSION_ID="19.10"
+15:07:04 LOG:   HOME_URL="https://system76.com/pop"
+15:07:04 LOG:   SUPPORT_URL="http://support.system76.com"
+15:07:04 LOG:   BUG_REPORT_URL="https://github.com/pop-os/pop/issues"
+15:07:04 LOG:   PRIVACY_POLICY_URL="https://system76.com/privacy"
+15:07:04 LOG:   VERSION_CODENAME=eoan
+15:07:04 LOG:   UBUNTU_CODENAME=eoan
+15:07:04 LOG:   LOGO=distributor-logo-pop-os
+15:07:04 LOG:   ERROR: ld.so: object '/home/utku2/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+15:07:04 LOG:   ERROR: ld.so: object '/home/utku2/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+15:07:04 LOG:  
+15:07:04 LOG:  /etc/debian_version: buster/sid
+15:07:04 LOG:   ERROR: ld.so: object '/home/utku2/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+15:07:04 LOG:  
+15:07:04 LOG:  Power saving settings: /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies:2500000 2100000 1600000 1300000 
+15:07:04 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors:conservative ondemand userspace powersave performance schedutil 
+15:07:04 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:1596397
+15:07:04 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_driver:acpi-cpufreq
+15:07:04 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor:performance
+15:07:04 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq:1600000
+15:07:04 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq:1300000
+15:07:04 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed:<unsupported>
+15:07:04 LOG:   ERROR: ld.so: object '/home/utku2/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+15:07:04 LOG:   ERROR: ld.so: object '/home/utku2/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+15:07:04 LOG:  
+15:07:04 LOG:  CPU Power saving is enabled and governor is set to performance.
+15:07:04 LOG:  
+15:07:04 LOG:  XDG_CURRENT_DESKTOP: XFCE
+15:07:04 LOG:  GDMSESSION: xfce
+15:07:04 LOG:  DESKTOP_SESSION: xfce
+15:07:04 LOG:  KDE_SESSION_VERSION: (null)
+15:07:04 LOG:  
+15:07:04 LOG:  * CPU...
+15:07:04 LOG:  Vendor: AuthenticAMD
+15:07:04 LOG:  Name: AMD A10-9620P RADEON R5, 10 COMPUTE CORES 4C+6G
+15:07:04 LOG:  Type: 0, Family: 15, Model: 5, Stepping: 1
+15:07:04 LOG:  Clock: 2.49 GHz
+15:07:04 LOG:  Cores: 4
+15:07:04 LOG:  CMOV: Yes
+15:07:04 LOG:  SSE: Yes
+15:07:04 LOG:  Invariant TSC: Yes
+15:07:04 LOG:  
+15:07:04 LOG:  
+15:07:04 LOG:  * Memory...
+15:07:04 LOG:  Total physical memory: 6974 MB
+15:07:04 LOG:  Free physical memory: 161 MB
+15:07:04 LOG:  
+15:07:04 LOG:  Available network adapters:
+15:07:04 LOG:   0: enp1s0f1, 10.10.113.119, 152:29:a6:3e:87:c2, 00000011
+15:07:04 LOG:   1: wlp2s0, 10.10.113.128, 144:61:ae:30:14:39, 00000011
+15:07:04 LOG:  Created thread 0047CEFD787F0000(ResourceGeneration).
+15:07:04 LOG:  Created thread 00374AFD787F0000(ResourceFreeing).
+15:07:04 LOG:  Created thread 0027CAFC787F0000(ResourceStreaming).
+15:07:04 LOG:  Cached 2 new net descriptors for hinted classes (2 total).
+15:07:04 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/GameEnv_Croteam.so".
+15:07:04 LOG:  Cached 0 new net descriptors for hinted classes (2 total).
+15:07:04 LOG:  Created thread 00C707FC787F0000(ResourceLoader).
+15:07:04 LOG:  Loading cvars from "Sources/SeriousSam2017/Launcher/defaults.cfg".
+15:07:04 LOG:  "UserData/SeriousSam2017.ini" does not exist, skipping cvar loading.
+15:07:04 INF:  User startup config not found in UserCfg.lua. Creating default script.
+15:07:04 LOG:  Loaded "libX11.so.6".
+15:07:04 LOG:  Loaded "libX11-xcb.so.1".
+15:07:04 LOG:  Loaded "libXi.so.6".
+15:07:04 LOG:  Loaded "libXrandr.so.2".
+15:07:04 LOG:  Current window manager: Xfwm4
+15:07:04 LOG:  Loaded "libdbus-1.so.3".
+15:07:04 LOG:  Opened connection to dbus
+15:07:04 LOG:  Loaded "libXss.so.1".
+15:07:04 LOG:  suspending screen saver using libXss
+15:07:04 LOG:  Display 0: eDP (1366x768) (Primary) 
+15:07:04 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/SeriousSam2017_Project.so".
+15:07:04 LOG:    Content/SeriousSam2017/50_440323_00_All.gro: 105 files, signature: OFFICIAL
+15:07:04 LOG:    Content/SeriousSam2017/50_440323_10_Game_SeriousSam3.gro: 137 files, signature: OFFICIAL
+15:07:04 LOG:    Content/SeriousSam2017/10_Game_SeriousSam3.gro: 15042 files, signature: OFFICIAL
+15:07:05 LOG:    Content/SeriousSam2017/00_All.gro: 3362 files, signature: OFFICIAL
+15:07:05 LOG:  Zip file system updated in 0.35 seconds.
+15:07:05 LOG:  2 dependency databases loaded and merged in 0.17 seconds.
+15:07:05 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/CodecAudio_Vorbis.so".
+15:07:05 LOG:  Cached 0 new net descriptors for hinted classes (2 total).
+15:07:05 LOG:  Module 'Bin/CodecAudio_Vorbis.module' loaded in '0.01' seconds.
+15:07:05 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/CodecVideo_Null.so".
+15:07:05 LOG:  Cached 0 new net descriptors for hinted classes (2 total).
+15:07:05 LOG:  Module 'Bin/CodecVideo_Null.module' loaded in '0.00' seconds.
+15:07:05 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/Input.so".
+15:07:05 LOG:  Cached 0 new net descriptors for hinted classes (2 total).
+15:07:05 LOG:  Loaded "libudev.so.1".
+15:07:05 LOG:  Successfully opened udev
+15:07:05 LOG:  Module 'Bin/Input.module' loaded in '0.05' seconds.
+15:07:05 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/ProcRender.so".
+15:07:05 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/Shaders.so".
+15:07:05 LOG:  Cached 0 new net descriptors for hinted classes (2 total).
+15:07:05 LOG:  Module 'Bin/Shaders.module' loaded in '0.01' seconds.
+15:07:05 LOG:  Cached 0 new net descriptors for hinted classes (2 total).
+15:07:05 LOG:  Module 'Bin/ProcRender.module' loaded in '0.04' seconds.
+15:07:05 LOG:  Module 'Bin/Shaders.module' loaded in '0.00' seconds.
+15:07:05 LOG:  Cached 409 new net descriptors for hinted classes (411 total).
+15:07:05 LOG:  Enumerating available gametitles...
+15:07:05 LOG:    Content/Empty.gtitle
+15:07:05 LOG:    Content/SeriousSam2017.gtitle
+15:07:05 LOG:    Content/SeriousSam3.gtitle
+15:07:06 LOG:  Locale: enu
+15:07:06 LOG:  Processing file Content/SeriousSam2017/Config/autoexec.cfg
+15:07:06 LOG:  Obtained menu streaming precache data from Content/SeriousSam2017/MenuStreamingPrecache.rsc (19 resources).
+15:07:06 LOG:  Module 'Bin/SeriousSam2017_Project.module' loaded in '1.17' seconds.
+15:07:06 LOG:  Trying to set display mode 1366x768(fullscreen)...
+15:07:06 LOG:  Loaded "libGL.so.1".
+15:07:07 INF:  
+15:07:07 INF:  * Desktop settings...
+15:07:07 INF:  Color depth: 32-bit
+15:07:07 INF:  Desktop resolution: 1366 x 768
+15:07:07 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/GfxVLK.so".
+15:07:07 LOG:  Cached 0 new net descriptors for hinted classes (411 total).
+15:07:07 LOG:    Content/SeriousSam2017/50_440323_00_All.gro: 105 files, signature: OFFICIAL
+15:07:07 LOG:    Content/SeriousSam2017/50_440323_10_Game_SeriousSam3.gro: 137 files, signature: OFFICIAL
+15:07:07 LOG:    Content/SeriousSam2017/10_Game_SeriousSam3.gro: 15042 files, signature: OFFICIAL
+15:07:07 LOG:    Content/SeriousSam2017/00_All.gro: 3362 files, signature: OFFICIAL
+15:07:08 LOG:    Content/CachedShaders_VLK.gro: 7120 files, signature: OFFICIAL
+15:07:08 LOG:  Zip file system updated in 0.82 seconds.
+15:07:08 LOG:  Setting fullscreen flag on the window.
+15:07:08 LOG:  Created thread 00C77FD2787F0000(VLKSupportThread).
+15:07:08 LOG:  Loaded "libvulkan.so.1".
+15:07:09 INF:  [Vulkan] Detected devices:
+15:07:09 INF:    #1 (0x0684D360): AMD RADV/ACO POLARIS12 (LLVM 9.0.0) (discrete)
+15:07:09 INF:    #2 (0x065AC970): AMD RADV/ACO CARRIZO (LLVM 9.0.0) (integrated)
+15:07:09 INF:    #3 (0x065A8CE0): AMD RADV/ACO POLARIS12 (LLVM 9.0.0) (discrete)
+15:07:09 INF:    #4 (0x065AC790): AMD RADV/ACO CARRIZO (LLVM 9.0.0) (integrated)
+15:07:09 INF:  Using device #1 (0x0684D360)...
+15:07:09 INF:  [Vulkan] Using transfer queue family for copy operations.
+15:07:09 LOG:  [Vulkan] Exposed presentation modes: immediate, mailbox, FIFO.
+15:07:09 INF:  [Vulkan] Using immediate presentation mode.
+15:07:09 LOG:  [Vulkan] Memory heaps:
+15:07:09 LOG:    #0: 1.75 GB, local
+15:07:09 LOG:    #1: 0.25 GB, shared
+15:07:09 LOG:    #2: 3.00 GB, host
+15:07:09 INF:  [Vulkan] D24S8 format not supported, using D32F instead.
+15:07:09 LOG:  [Vulkan] Created pipeline cache object with initial size of 0.00 KB.
+15:07:09 INF:  Trying to allocate device optimal memory pool of 128 MB for 0 KB object... allocated 128 MB in device optimal memory pool.
+15:07:09 INF:  Trying to allocate device linear memory pool of 64 MB for 128 KB object... allocated 64 MB in device linear memory pool.
+15:07:09 INF:  Trying to allocate host linear memory pool of 64 MB for 128 KB object... allocated 64 MB in host linear memory pool.
+15:07:09 LOG:  [Vulkan] Created 32.0 MB buffer for dynamic geometry.
+15:07:09 LOG:  [Vulkan] Created 32.0 MB buffer for constant registers.
+15:07:09 INF:  
+15:07:09 INF:  Gfx API: Vulkan
+15:07:09 INF:  Resolution: 1366 x 768
+15:07:09 INF:  Driver: Vulkan
+15:07:09 INF:  Vendor: ATI (0x1002)
+15:07:09 INF:  Renderer: AMD RADV/ACO POLARIS12 (LLVM 9.0.0) (0x699F)
+15:07:09 INF:  Version: 79700067
+15:07:09 INF:  Video memory size: 2048 MB
+15:07:09 INF:  Available for textures: 1024 MB
+15:07:09 INF:  Shader model version: 5.0
+15:07:09 INF:  Active GPU(s): 1
+15:07:09 INF:  GPU architecture: forward conventional rendering
+15:07:09 INF:  Allowed memory size used for streaming: 1024.0 MB
+15:07:09 LOG:  Processing file Content/SeriousSam2017/Config/CheckDriver.lua
+15:07:09 INF:  Driver version: 99999 (required: 11900)
+15:07:09 LOG:  Processing file Content/Shared/Config/SystemCompatibility.lua
+15:07:10 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/SfxOAL.so".
+15:07:10 LOG:  Loaded "libopenal.so.1".
+15:07:11 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/SfxSWM.so".
+15:07:11 LOG:  Initialized mixer output with 2 output channels.
+15:07:11 LOG:  Created thread 00E77C6B787F0000(SoftwareMixer).
+15:07:11 INF:  Failed setting thread priority. (Error: 13 - Permission denied)
+15:07:11 INF:  
+15:07:11 INF:  Sfx API: OpenAL
+15:07:11 INF:  Software mixer: enabled
+15:07:11 INF:  Current device: OpenAL Soft (OpenAL Soft)
+15:07:11 INF:  Available devices:
+15:07:11 INF:   0: OpenAL Soft (OpenAL Soft)
+15:07:11 INF:  Mixer frequency: 44100 Hz
+15:07:11 INF:  Mixer voices: 0
+15:07:11 INF:  Max sound sources: 25
+15:07:11 INF:  Max total volume: 3
+15:07:11 INF:  Speaker config: stereo
+15:07:11 INF:  Environment FX: enabled
+15:07:11 INF:  Current environment: Padded cell
+15:07:11 INF:  
+15:07:12 LOG:  cvarShowDiffs()
+15:07:12 LOG:  gfx_bLastGoodFullScreen = 1 (0)
+15:07:12 LOG:  gfx_iFullscreenMonitor = 0 (-1)
+15:07:12 LOG:  gfx_pixLastGoodResHeight = 768 (480)
+15:07:12 LOG:  gfx_pixLastGoodResWidth = 1366 (640)
+15:07:12 LOG:  gfx_pixResHeight = 768 (0)
+15:07:12 LOG:  gfx_pixResWidth = 1366 (0)
+15:07:12 LOG:  ptt_strDefault = ""049f171b4b812c4fbd828f32828dd435fc1deb01ea01ee48e85716b1055660b6"" (""bccec1836e18dc14ada30b017cd492303f279bd74f926b2498a85b4bdd1bbabf"")
+15:07:12 LOG:  Scheduling loading of default game title: Content/SeriousSam2017.gtitle
+15:07:12 LOG:  Processing file Content/SeriousSam2017/Config/AutoDetect.lua
+15:07:12 INF:  AutoDetect: No previous hardware values stored, adjusting settings automatically.
+15:07:12 INF:  CPU efficiency: 2120.75 MHz * 4 usable cores = 4326.33
+15:07:12 INF:  ID: 0x699f; card: Radeon RX 550 series; performance: 270; compatiblity: 2
+15:07:13 LOG:  43 textures reloaded in 0.2 seconds
+15:07:13 LOG:  Created thread 00970269787F0000(ShaderCompiler).
+15:07:13 LOG:  Created thread 00878268787F0000(ShaderCompiler).
+15:07:13 LOG:  Created thread 00A7FF53787F0000(ShaderCompiler).
+15:07:13 INF:  AutoDetect: storing new settings: sys_bUserSpaceGPU=true,vr_bSteamVRForceInterleavedReprojection=false,sys_iCPUMHz=2495,gfx_iShaderModelVersion=50,sys_strPlatform=Linux,sys_iGPUVendorID=4098,gfx_ulVideoMemoryMB=2048,gfx_ctConcurrentGPUs=1,sys_strCPUVendor=AuthenticAMD,gfx_ulFreeTextureMemoryMB=1024,vr_iUsingSinglePassStereo=0,sys_iCPUFamily=15,gfx_iRelaxedOcclusionTest=0,gfx_bTileBasedGPU=false,sys_iGPUDeviceID=27039,sys_slRAMPhysMB=6974,sys_b32bitOS=0,
+15:07:13 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/PS3Controller.xml.
+15:07:13 LOG:  Icons file loaded successfuly.
+15:07:13 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/PS3ControllerAsian.xml.
+15:07:13 LOG:  Icons file loaded successfuly.
+15:07:13 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/PS4Controller.xml.
+15:07:13 LOG:  Icons file loaded successfuly.
+15:07:13 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/PS4ControllerAsian.xml.
+15:07:13 LOG:  Icons file loaded successfuly.
+15:07:13 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/SteamController.xml.
+15:07:13 LOG:  Icons file loaded successfuly.
+15:07:13 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/XBox360Controller.xml.
+15:07:13 LOG:  Icons file loaded successfuly.
+15:07:13 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/XboxOneController.xml.
+15:07:13 LOG:  Icons file loaded successfuly.
+15:07:13 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/NXController.xml.
+15:07:13 LOG:  Icons file loaded successfuly.
+15:07:15 LOG:  Created thread 00C71851787F0000(GameDataJobs).
+15:07:16 LOG:  3234 shaders loaded in 3.8 seconds
+15:07:16 LOG:  Created thread 00F7FF43787F0000(ShaderCompiler).
+15:07:16 LOG:  Created thread 00970269787F0000(ShaderCompiler).
+15:07:17 LOG:  Created thread 00878268787F0000(ShaderCompiler).
+15:07:18 LOG:  Found 0 script(s) in 'Content/SeriousSamFusion/Scripts/Startup/'.
+15:07:18 LOG:  3234 shaders loaded in 1.8 seconds
+15:07:18 LOG:  Preloading 0 script(s) in 'Content/SeriousSam3/Scripts/CommandTable/'.
+15:07:18 LOG:  Preloading 0 script(s) in 'Content/SeriousSam3/Scripts/DefaultBindings/'.
+15:07:18 LOG:  Started loading world "Content/SeriousSam3/Levels/Menu/MenuLevel.wld"
+15:07:20 LOG:  Finished loading world. (process memory: 3123 MB)
+15:07:20 LOG:  Preparing world to start...
+15:07:20 LOG:  Created thread 00F7FF43787F0000(WorldStart).
+15:07:20 LOG:  Timestamp: 2019/10/30 15:07:20
+15:07:20 INF:  Started simulation on 'Content/SeriousSam3/Levels/Menu/MenuLevel.wld' in 1.41 seconds.
+15:07:20 LOG:  Started loading world "Content/SeriousSam3/Levels/Menu/MenuLevel.wld"
+15:07:20 LOG:  Finished loading world. (process memory: 3124 MB)
+15:07:20 LOG:  Preparing world to start...
+15:07:20 LOG:  Created thread 00F7FF43787F0000(WorldStart).
+15:07:20 LOG:  Timestamp: 2019/10/30 15:07:20
+15:07:20 INF:  Started simulation on 'Content/SeriousSam3/Levels/Menu/MenuLevel.wld' in 0.07 seconds.
+15:07:20 LOG:  Started loading world "Content/SeriousSam3/Levels/Menu/LogoIntro.wld"
+15:07:20 LOG:  Finished loading world. (process memory: 3125 MB)
+15:07:20 LOG:  Preparing world to start...
+15:07:20 LOG:  Created thread 00F7FF43787F0000(WorldStart).
+15:07:20 LOG:  Timestamp: 2019/10/30 15:07:20
+15:07:20 INF:  Started simulation on 'Content/SeriousSam3/Levels/Menu/LogoIntro.wld' in 0.18 seconds.
+15:07:20 LOG:  User interaction stage reached in 8.56 seconds.
+15:07:21 LOG:  Created HDR render-target of 1366x768.
+15:07:21 LOG:  Created thread 00F7FF43787F0000(WorkerThreadPool).
+15:07:21 LOG:  Created thread 00970269787F0000(WorkerThreadPool).
+15:07:21 LOG:  Created thread 00878268787F0000(WorkerThreadPool).
+15:07:26 LOG:  Timestamp: 2019/10/30 15:07:26
+15:07:26 LOG:  Stopping simulation (duration: 5.3209728).
+15:07:26 LOG:  Timestamp: 2019/10/30 15:07:26
+15:07:26 LOG:  Stopping world 'Content/SeriousSam3/Levels/Menu/LogoIntro.wld'.
+15:07:26 LOG:  World deleted in 0.00(0.00)sec.
+15:07:26 LOG:  World stopped in 0.00sec.
+15:07:26 LOG:  Process memory: 3136 MB
+15:07:57 LOG:  OpenSSL 1.1.0e  16 Feb 2017
+15:07:57 ERR:  LVE: 22363
+15:08:38 LOG:  OpenSSL 1.1.0e  16 Feb 2017
+15:08:39 ERR:  LVE: 22363
+15:09:03 LOG:  OpenSSL 1.1.0e  16 Feb 2017
+15:09:04 ERR:  LVE: 22363
+15:09:29 LOG:  OpenSSL 1.1.0e  16 Feb 2017
+15:09:30 ERR:  LVE: 22363
+15:09:40 LOG:  Application termination mode activated because 'Window close event received'
+15:09:40 LOG:  Timestamp: 2019/10/30 15:09:40
+15:09:40 LOG:  Stopping simulation (duration: 33.22489).
+15:09:40 LOG:  Timestamp: 2019/10/30 15:09:40
+15:09:40 LOG:  Stopping world 'Content/SeriousSam3/Levels/Menu/MenuLevel.wld'.
+15:09:40 LOG:  World deleted in 0.00(0.00)sec.
+15:09:40 LOG:  World stopped in 0.00sec.
+15:09:40 LOG:  Process memory: 3139 MB
+15:09:40 LOG:  Timestamp: 2019/10/30 15:09:40
+15:09:40 LOG:  Stopping simulation (duration: 0).
+15:09:40 LOG:  Timestamp: 2019/10/30 15:09:40
+15:09:40 LOG:  Stopping world 'Content/SeriousSam3/Levels/Menu/MenuLevel.wld'.
+15:09:40 LOG:  World deleted in 0.00(0.00)sec.
+15:09:40 LOG:  World stopped in 0.00sec.
+15:09:40 LOG:  Process memory: 3139 MB
+15:09:40 LOG:  Saving cvars to "UserData/SeriousSam2017.ini".
+15:09:40 LOG:  [Vulkan] Saved 111.70 KB of pipeline cache data.
+15:09:40 LOG:  [Vulkan] Created pipeline cache object with initial size of 111.70 KB.
+15:09:40 LOG:  Clearing fullscreen flag on the window.
+15:09:40 LOG:  Shutting down sound mixer output.
+15:09:40 LOG:  Loaded "libXss.so.1".
+15:09:40 LOG:  resuming screen saver using libXss
+15:09:40 LOG:  Closed connection to dbus
+15:09:40 LOG:  Timestamp: 2019/10/30 15:09:40
+15:09:40 LOG:  Core is shutting down
+
+
+        -------- START OF LOG --------
+
+15:27:24 LOG:  Core version: $Version: SE2017_PC_dev; SeriousSam2017_Executables-Linux-Final; 440323 2019-06-07 00:00:17 @builderl01; Linux-x64-Static-Final-Default$
+15:27:24 LOG:  Command:  $
+15:27:24 LOG:  Initializing timer.
+15:27:24 LOG:  Timestamp: 2019/10/30 15:27:23
+15:27:24 LOG:  Binary name: Sam2017
+15:27:24 LOG:  Binary soft path: Bin/x64/
+15:27:24 LOG:  Binary hard path: /mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/
+15:27:24 LOG:  Application directory: /mnt/Toshiba-blue/common/Serious Sam Fusion 2017/
+15:27:24 LOG:  
+15:27:24 LOG:  * OS...
+15:27:24 LOG:  Type: Linux
+15:27:24 LOG:  Kernel: 5.4.0-050400rc5-generic
+15:27:24 LOG:  Version: #201910271430 SMP Sun Oct 27 18:33:09 UTC 2019
+15:27:24 LOG:  Architecture: x86_64
+15:27:24 LOG:  Output of lsb_release: Distributor ID: Ubuntu
+15:27:24 LOG:   Description: Pop!_OS 19.10
+15:27:24 LOG:   Release: 19.10
+15:27:24 LOG:   Codename: eoan
+15:27:24 LOG:   ERROR: ld.so: object '/home/utku2/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+15:27:24 LOG:  
+15:27:24 LOG:  /etc/*-release: DISTRIB_ID=Ubuntu
+15:27:24 LOG:   DISTRIB_RELEASE=19.10
+15:27:24 LOG:   DISTRIB_CODENAME=eoan
+15:27:24 LOG:   DISTRIB_DESCRIPTION="Pop!_OS 19.10"
+15:27:24 LOG:   NAME="Pop!_OS"
+15:27:24 LOG:   VERSION="19.10"
+15:27:24 LOG:   ID=ubuntu
+15:27:24 LOG:   ID_LIKE=debian
+15:27:24 LOG:   PRETTY_NAME="Pop!_OS 19.10"
+15:27:24 LOG:   VERSION_ID="19.10"
+15:27:24 LOG:   HOME_URL="https://system76.com/pop"
+15:27:24 LOG:   SUPPORT_URL="http://support.system76.com"
+15:27:24 LOG:   BUG_REPORT_URL="https://github.com/pop-os/pop/issues"
+15:27:24 LOG:   PRIVACY_POLICY_URL="https://system76.com/privacy"
+15:27:24 LOG:   VERSION_CODENAME=eoan
+15:27:24 LOG:   UBUNTU_CODENAME=eoan
+15:27:24 LOG:   LOGO=distributor-logo-pop-os
+15:27:24 LOG:   ERROR: ld.so: object '/home/utku2/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+15:27:24 LOG:   ERROR: ld.so: object '/home/utku2/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+15:27:24 LOG:  
+15:27:24 LOG:  /etc/debian_version: buster/sid
+15:27:24 LOG:   ERROR: ld.so: object '/home/utku2/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+15:27:24 LOG:  
+15:27:24 LOG:  Power saving settings: /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies:2500000 2100000 1600000 1300000 
+15:27:24 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors:conservative ondemand userspace powersave performance schedutil 
+15:27:24 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:1596762
+15:27:24 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_driver:acpi-cpufreq
+15:27:24 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor:performance
+15:27:24 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq:1600000
+15:27:24 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq:1300000
+15:27:24 LOG:   /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed:<unsupported>
+15:27:24 LOG:   ERROR: ld.so: object '/home/utku2/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+15:27:24 LOG:   ERROR: ld.so: object '/home/utku2/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+15:27:24 LOG:  
+15:27:24 LOG:  CPU Power saving is enabled and governor is set to performance.
+15:27:24 LOG:  
+15:27:24 LOG:  XDG_CURRENT_DESKTOP: XFCE
+15:27:24 LOG:  GDMSESSION: xfce
+15:27:24 LOG:  DESKTOP_SESSION: xfce
+15:27:24 LOG:  KDE_SESSION_VERSION: (null)
+15:27:24 LOG:  
+15:27:24 LOG:  * CPU...
+15:27:24 LOG:  Vendor: AuthenticAMD
+15:27:24 LOG:  Name: AMD A10-9620P RADEON R5, 10 COMPUTE CORES 4C+6G
+15:27:24 LOG:  Type: 0, Family: 15, Model: 5, Stepping: 1
+15:27:24 LOG:  Clock: 2.49 GHz
+15:27:24 LOG:  Cores: 4
+15:27:24 LOG:  CMOV: Yes
+15:27:24 LOG:  SSE: Yes
+15:27:24 LOG:  Invariant TSC: Yes
+15:27:24 LOG:  
+15:27:24 LOG:  
+15:27:24 LOG:  * Memory...
+15:27:24 LOG:  Total physical memory: 6974 MB
+15:27:24 LOG:  Free physical memory: 189 MB
+15:27:24 LOG:  
+15:27:24 LOG:  Available network adapters:
+15:27:24 LOG:   0: enp1s0f1, 10.10.113.119, 152:29:a6:3e:87:c2, 00000011
+15:27:24 LOG:   1: wlp2s0, 10.10.113.128, 144:61:ae:30:14:39, 00000011
+15:27:24 LOG:  Created thread 004783E2D37F0000(ResourceGeneration).
+15:27:24 LOG:  Created thread 0037FFE1D37F0000(ResourceFreeing).
+15:27:24 LOG:  Created thread 00277FE1D37F0000(ResourceStreaming).
+15:27:24 LOG:  Cached 2 new net descriptors for hinted classes (2 total).
+15:27:24 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/GameEnv_Croteam.so".
+15:27:24 LOG:  Cached 0 new net descriptors for hinted classes (2 total).
+15:27:24 LOG:  Created thread 00C7BCE0D37F0000(ResourceLoader).
+15:27:24 LOG:  Loading cvars from "Sources/SeriousSam2017/Launcher/defaults.cfg".
+15:27:24 LOG:  Loading cvars from "UserData/SeriousSam2017.ini".
+15:27:24 LOG:  Skipped assigning to vidc_strDisabledVideoCaptureDevices because the saved version (0) is different than the current version (3).
+15:27:24 INF:  Executing user startup config from UserCfg.lua
+15:27:24 LOG:  Processing file UserCfg.lua
+15:27:24 LOG:  Loaded "libX11.so.6".
+15:27:24 LOG:  Loaded "libX11-xcb.so.1".
+15:27:24 LOG:  Loaded "libXi.so.6".
+15:27:24 LOG:  Loaded "libXrandr.so.2".
+15:27:24 LOG:  Current window manager: Xfwm4
+15:27:24 LOG:  Loaded "libdbus-1.so.3".
+15:27:24 LOG:  Opened connection to dbus
+15:27:24 LOG:  Loaded "libXss.so.1".
+15:27:24 LOG:  suspending screen saver using libXss
+15:27:24 LOG:  Display 0: eDP (1366x768) (Primary) 
+15:27:24 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/SeriousSam2017_Project.so".
+15:27:24 LOG:    Content/SeriousSam2017/50_440323_00_All.gro: 105 files, signature: OFFICIAL
+15:27:24 LOG:    Content/SeriousSam2017/50_440323_10_Game_SeriousSam3.gro: 137 files, signature: OFFICIAL
+15:27:24 LOG:    Content/SeriousSam2017/10_Game_SeriousSam3.gro: 15042 files, signature: OFFICIAL
+15:27:24 LOG:    Content/SeriousSam2017/00_All.gro: 3362 files, signature: OFFICIAL
+15:27:24 LOG:  Zip file system updated in 0.24 seconds.
+15:27:24 LOG:  2 dependency databases loaded and merged in 0.14 seconds.
+15:27:24 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/CodecAudio_Vorbis.so".
+15:27:24 LOG:  Cached 0 new net descriptors for hinted classes (2 total).
+15:27:24 LOG:  Module 'Bin/CodecAudio_Vorbis.module' loaded in '0.00' seconds.
+15:27:24 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/CodecVideo_Null.so".
+15:27:24 LOG:  Cached 0 new net descriptors for hinted classes (2 total).
+15:27:24 LOG:  Module 'Bin/CodecVideo_Null.module' loaded in '0.00' seconds.
+15:27:24 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/Input.so".
+15:27:24 LOG:  Cached 0 new net descriptors for hinted classes (2 total).
+15:27:24 LOG:  Loaded "libudev.so.1".
+15:27:24 LOG:  Successfully opened udev
+15:27:24 LOG:  Module 'Bin/Input.module' loaded in '0.04' seconds.
+15:27:24 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/ProcRender.so".
+15:27:24 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/Shaders.so".
+15:27:24 LOG:  Cached 0 new net descriptors for hinted classes (2 total).
+15:27:24 LOG:  Module 'Bin/Shaders.module' loaded in '0.01' seconds.
+15:27:24 LOG:  Cached 0 new net descriptors for hinted classes (2 total).
+15:27:24 LOG:  Module 'Bin/ProcRender.module' loaded in '0.02' seconds.
+15:27:24 LOG:  Module 'Bin/Shaders.module' loaded in '0.00' seconds.
+15:27:25 LOG:  Cached 409 new net descriptors for hinted classes (411 total).
+15:27:25 LOG:  Skipped assigning to con_strLastLinesFilter because the saved version (0) is different than the current version (1).
+15:27:25 LOG:  Skipped assigning to con_strMainFilter because the saved version (0) is different than the current version (1).
+15:27:25 LOG:  Skipped assigning to prj_strMultiplayerSessionName because the saved version (0) is different than the current version (2).
+15:27:25 LOG:  Enumerating available gametitles...
+15:27:25 LOG:    Content/Empty.gtitle
+15:27:25 LOG:    Content/SeriousSam2017.gtitle
+15:27:25 LOG:    Content/SeriousSam3.gtitle
+15:27:25 LOG:  Locale: enu
+15:27:25 LOG:  Processing file Content/SeriousSam2017/Config/autoexec.cfg
+15:27:25 LOG:  Obtained menu streaming precache data from Content/SeriousSam2017/MenuStreamingPrecache.rsc (19 resources).
+15:27:25 LOG:  Module 'Bin/SeriousSam2017_Project.module' loaded in '0.71' seconds.
+15:27:25 LOG:  Trying to set display mode 1366x768(fullscreen)...
+15:27:25 LOG:  Loaded "libGL.so.1".
+15:27:25 INF:  
+15:27:25 INF:  * Desktop settings...
+15:27:25 INF:  Color depth: 32-bit
+15:27:25 INF:  Desktop resolution: 1366 x 768
+15:27:25 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/GfxVLK.so".
+15:27:25 LOG:  Cached 0 new net descriptors for hinted classes (411 total).
+15:27:25 LOG:    Content/SeriousSam2017/50_440323_00_All.gro: 105 files, signature: OFFICIAL
+15:27:25 LOG:    Content/SeriousSam2017/50_440323_10_Game_SeriousSam3.gro: 137 files, signature: OFFICIAL
+15:27:26 LOG:    Content/SeriousSam2017/10_Game_SeriousSam3.gro: 15042 files, signature: OFFICIAL
+15:27:26 LOG:    Content/SeriousSam2017/00_All.gro: 3362 files, signature: OFFICIAL
+15:27:26 LOG:    Content/CachedShaders_VLK.gro: 7120 files, signature: OFFICIAL
+15:27:26 LOG:  Zip file system updated in 0.59 seconds.
+15:27:26 LOG:  Setting fullscreen flag on the window.
+15:27:26 LOG:  Created thread 00D7FFC6D37F0000(VLKSupportThread).
+15:27:26 LOG:  Loaded "libvulkan.so.1".
+15:27:26 INF:  [Vulkan] Detected devices:
+15:27:26 INF:    #1 (0x06C0ABF0): AMD RADV/ACO POLARIS12 (LLVM 9.0.0) (discrete)
+15:27:26 INF:    #2 (0x06C0A910): AMD RADV/ACO CARRIZO (LLVM 9.0.0) (integrated)
+15:27:26 INF:    #3 (0x06C03990): AMD RADV/ACO POLARIS12 (LLVM 9.0.0) (discrete)
+15:27:26 INF:    #4 (0x06C11DA0): AMD RADV/ACO CARRIZO (LLVM 9.0.0) (integrated)
+15:27:26 INF:  Using device #1 (0x06C0ABF0)...
+15:27:28 INF:  [Vulkan] Using transfer queue family for copy operations.
+15:27:28 LOG:  [Vulkan] Exposed presentation modes: immediate, mailbox, FIFO.
+15:27:28 INF:  [Vulkan] Using immediate presentation mode.
+15:27:28 LOG:  [Vulkan] Memory heaps:
+15:27:28 LOG:    #0: 1.75 GB, local
+15:27:28 LOG:    #1: 0.25 GB, shared
+15:27:28 LOG:    #2: 3.00 GB, host
+15:27:28 INF:  [Vulkan] D24S8 format not supported, using D32F instead.
+15:27:28 LOG:  [Vulkan] Created pipeline cache object with initial size of 111.70 KB.
+15:27:28 INF:  Trying to allocate device optimal memory pool of 128 MB for 0 KB object... allocated 128 MB in device optimal memory pool.
+15:27:30 INF:  Trying to allocate device linear memory pool of 64 MB for 128 KB object... allocated 64 MB in device linear memory pool.
+15:27:30 INF:  Trying to allocate host linear memory pool of 64 MB for 128 KB object... allocated 64 MB in host linear memory pool.
+15:27:30 LOG:  [Vulkan] Created 32.0 MB buffer for dynamic geometry.
+15:27:30 LOG:  [Vulkan] Created 32.0 MB buffer for constant registers.
+15:27:30 INF:  
+15:27:30 INF:  Gfx API: Vulkan
+15:27:30 INF:  Resolution: 1366 x 768
+15:27:30 INF:  Driver: Vulkan
+15:27:30 INF:  Vendor: ATI (0x1002)
+15:27:30 INF:  Renderer: AMD RADV/ACO POLARIS12 (LLVM 9.0.0) (0x699F)
+15:27:30 INF:  Version: 79700067
+15:27:30 INF:  Video memory size: 2048 MB
+15:27:30 INF:  Available for textures: 1024 MB
+15:27:30 INF:  Shader model version: 5.0
+15:27:30 INF:  Active GPU(s): 1
+15:27:30 INF:  GPU architecture: forward conventional rendering
+15:27:30 INF:  Allowed memory size used for streaming: 1024.0 MB
+15:27:30 LOG:  Processing file Content/SeriousSam2017/Config/CheckDriver.lua
+15:27:30 INF:  Driver version: 99999 (required: 11900)
+15:27:30 LOG:  Processing file Content/Shared/Config/SystemCompatibility.lua
+15:27:30 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/SfxOAL.so".
+15:27:30 LOG:  Loaded "libopenal.so.1".
+15:27:31 LOG:  Loaded "/mnt/Toshiba-blue/common/Serious Sam Fusion 2017/Bin/x64/SfxSWM.so".
+15:27:31 LOG:  Initialized mixer output with 2 output channels.
+15:27:31 LOG:  Created thread 00C7FF4FD37F0000(SoftwareMixer).
+15:27:31 INF:  Failed setting thread priority. (Error: 13 - Permission denied)
+15:27:31 INF:  
+15:27:31 INF:  Sfx API: OpenAL
+15:27:31 INF:  Software mixer: enabled
+15:27:31 INF:  Current device: OpenAL Soft (OpenAL Soft)
+15:27:31 INF:  Available devices:
+15:27:31 INF:   0: OpenAL Soft (OpenAL Soft)
+15:27:31 INF:  Mixer frequency: 44100 Hz
+15:27:31 INF:  Mixer voices: 0
+15:27:31 INF:  Max sound sources: 15
+15:27:31 INF:  Max total volume: 3
+15:27:31 INF:  Speaker config: stereo
+15:27:31 INF:  Environment FX: enabled
+15:27:31 INF:  Current environment: Padded cell
+15:27:31 INF:  
+15:27:32 LOG:  cvarShowDiffs()
+15:27:32 LOG:  cmp_pixMaxSize = 1024 (16384)
+15:27:32 LOG:  dcl_ctMaxNewTrianglesPerFrame = 1024 (2048)
+15:27:32 LOG:  dcl_ctMaxTrianglesPerGroup = 1536 (4096)
+15:27:32 LOG:  gfx_bLastGoodFullScreen = 1 (0)
+15:27:32 LOG:  gfx_bRequiredShaderReload = 1 (0)
+15:27:32 LOG:  gfx_bRequiredTextureReload = 1 (0)
+15:27:32 LOG:  gfx_iFullscreenMonitor = 0 (-1)
+15:27:32 LOG:  gfx_iFXAA = 2 (1)
+15:27:32 LOG:  gfx_pixLastGoodResHeight = 768 (480)
+15:27:32 LOG:  gfx_pixLastGoodResWidth = 1366 (640)
+15:27:32 LOG:  gfx_pixLastGoodWinHeight = 768 (480)
+15:27:32 LOG:  gfx_pixLastGoodWinWidth = 1366 (640)
+15:27:32 LOG:  gfx_pixResHeight = 768 (0)
+15:27:32 LOG:  gfx_pixResWidth = 1366 (0)
+15:27:32 LOG:  gfx_pixWinHeight = 768 (480)
+15:27:32 LOG:  gfx_pixWinWidth = 1366 (640)
+15:27:32 LOG:  lmp_iBaseMip = 1 (0)
+15:27:32 LOG:  men_bAllowGlowing = 0 (1)
+15:27:32 LOG:  nmp_pixMaxSize = 2048 (16384)
+15:27:32 LOG:  prj_bDebrisCastShadow = 0 (1)
+15:27:32 LOG:  prj_bDisableRagdollDeaths = 1 (0)
+15:27:32 LOG:  prj_bEnableDynamicDecals = 0 (1)
+15:27:32 LOG:  prj_bSimpleCharacterDestructions = 1 (0)
+15:27:32 LOG:  prj_ctMaxCorpses = 8 (25)
+15:27:32 LOG:  prj_ctMaxDebris = 200 (1000)
+15:27:32 LOG:  prj_fDebrisScreenSizeRatioCull = 0.04 (0.01)
+15:27:32 LOG:  prj_iCPUSpeed = 0 (2)
+15:27:32 LOG:  prj_iGPUMemory = 1 (2)
+15:27:32 LOG:  prj_iWorldCacheMode = 0 (4)
+15:27:32 LOG:  prj_strLastAutoDetectSetup = ""sys_bUserSpaceGPU=true,vr_bSteamVRForceInterleavedReprojection=false,sys_iCPUMHz=2495,gfx_iShaderModelVersion=50,sys_strPlatform=Linux,sys_iGPUVendorID=4098,gfx_ulVideoMemoryMB=2048,gfx_ctConcurrentGPUs=1,sys_strCPUVendor=AuthenticAMD,gfx_ulFreeTextureMemoryMB=1024,vr_iUsingSinglePassStereo=0,sys_iCPUFamily=15,gfx_iRelaxedOcclusionTest=0,gfx_bTileBasedGPU=false,sys_iGPUDeviceID=27039,sys_slRAMPhysMB=6974,sys_b32bitOS=0,"" ("""")
+15:27:32 LOG:  ptt_strDefault = ""2ad7e98a65c9d2a493ca71a3acc52aa7d2551590c44910d9205be986190870df"" (""bccec1836e18dc14ada30b017cd492303f279bd74f926b2498a85b4bdd1bbabf"")
+15:27:32 LOG:  ren_bAmbientShadows = 1 (0)
+15:27:32 LOG:  ren_bMirrorReflections = 0 (1)
+15:27:32 LOG:  ren_bPrebakedDynamicLights = 1 (0)
+15:27:32 LOG:  ren_fCullDistanceBias = 2 (1)
+15:27:32 LOG:  ren_fMax3DRenderingMPix = 1.5 (0)
+15:27:32 LOG:  ren_fMirrorBias = 3.5 (3)
+15:27:32 LOG:  ren_iMirrorLevelBias = -2 (0)
+15:27:32 LOG:  sfx_iMaxActiveSounds = 15 (25)
+15:27:32 LOG:  sha_fShadowDithering = 1 (0)
+15:27:32 LOG:  sha_iMaxShockwaves = 10 (8)
+15:27:32 LOG:  sha_iParallaxMappingMethod = 1 (2)
+15:27:32 LOG:  sha_iZoomBlurQuality = 2 (1)
+15:27:32 LOG:  shb_bSoftShadows = 0 (1)
+15:27:32 LOG:  shb_fDynamicShadowDistance = 60 (120)
+15:27:32 LOG:  tex_pixMaxSize = 4096 (16384)
+15:27:32 LOG:  Scheduling loading of default game title: Content/SeriousSam2017.gtitle
+15:27:32 LOG:  Processing file Content/SeriousSam2017/Config/AutoDetect.lua
+15:27:32 INF:  AutoDetect: Hardware values unchanged, nothing to do.
+15:27:32 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/PS3Controller.xml.
+15:27:32 LOG:  Icons file loaded successfuly.
+15:27:32 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/PS3ControllerAsian.xml.
+15:27:32 LOG:  Icons file loaded successfuly.
+15:27:32 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/PS4Controller.xml.
+15:27:32 LOG:  Icons file loaded successfuly.
+15:27:32 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/PS4ControllerAsian.xml.
+15:27:32 LOG:  Icons file loaded successfuly.
+15:27:32 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/SteamController.xml.
+15:27:32 LOG:  Icons file loaded successfuly.
+15:27:32 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/XBox360Controller.xml.
+15:27:32 LOG:  Icons file loaded successfuly.
+15:27:32 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/XboxOneController.xml.
+15:27:32 LOG:  Icons file loaded successfuly.
+15:27:32 LOG:  Loading gamepad icons file Content/Shared/Textures/Input/NXController.xml.
+15:27:32 LOG:  Icons file loaded successfuly.
+15:27:32 LOG:  Created thread 0047604ED37F0000(ShaderCompiler).
+15:27:32 LOG:  Created thread 0037E04DD37F0000(ShaderCompiler).
+15:27:32 LOG:  Created thread 0087094DD37F0000(ShaderCompiler).
+15:27:34 LOG:  Created thread 00F7DF35D37F0000(GameDataJobs).
+15:27:37 LOG:  Found 0 script(s) in 'Content/SeriousSamFusion/Scripts/Startup/'.
+15:27:37 LOG:  3130 shaders loaded in 4.7 seconds
+15:27:37 LOG:  Preloading 0 script(s) in 'Content/SeriousSam3/Scripts/CommandTable/'.
+15:27:37 LOG:  Preloading 0 script(s) in 'Content/SeriousSam3/Scripts/DefaultBindings/'.
+15:27:37 LOG:  Started loading world "Content/SeriousSam3/Levels/Menu/MenuLevel.wld"
+15:27:38 LOG:  Finished loading world. (process memory: 3111 MB)
+15:27:38 LOG:  Preparing world to start...
+15:27:38 LOG:  Created thread 0047604ED37F0000(WorldStart).
+15:27:38 LOG:  Timestamp: 2019/10/30 15:27:38
+15:27:38 INF:  Started simulation on 'Content/SeriousSam3/Levels/Menu/MenuLevel.wld' in 0.76 seconds.
+15:27:38 LOG:  Started loading world "Content/SeriousSam3/Levels/Menu/MenuLevel.wld"
+15:27:38 LOG:  Finished loading world. (process memory: 3111 MB)
+15:27:38 LOG:  Preparing world to start...
+15:27:38 LOG:  Created thread 0047604ED37F0000(WorldStart).
+15:27:38 LOG:  Timestamp: 2019/10/30 15:27:38
+15:27:38 INF:  Started simulation on 'Content/SeriousSam3/Levels/Menu/MenuLevel.wld' in 0.07 seconds.
+15:27:38 LOG:  Started loading world "Content/SeriousSam3/Levels/Menu/LogoIntro.wld"
+15:27:38 LOG:  Finished loading world. (process memory: 3113 MB)
+15:27:38 LOG:  Preparing world to start...
+15:27:38 LOG:  Created thread 0047604ED37F0000(WorldStart).
+15:27:38 LOG:  Timestamp: 2019/10/30 15:27:38
+15:27:38 INF:  Started simulation on 'Content/SeriousSam3/Levels/Menu/LogoIntro.wld' in 0.17 seconds.
+15:27:38 LOG:  User interaction stage reached in 6.30 seconds.
+15:27:39 LOG:  Created thread 0047604ED37F0000(WorkerThreadPool).
+15:27:39 LOG:  Created thread 0037E04DD37F0000(WorkerThreadPool).
+15:27:39 LOG:  Created thread 0087094DD37F0000(WorkerThreadPool).
+15:27:39 LOG:  Created HDR render-target of 1366x768.
+15:27:41 LOG:  Timestamp: 2019/10/30 15:27:41
+15:27:41 LOG:  Stopping simulation (duration: 2.2711164).
+15:27:41 LOG:  Timestamp: 2019/10/30 15:27:41
+15:27:41 LOG:  Stopping world 'Content/SeriousSam3/Levels/Menu/LogoIntro.wld'.
+15:27:41 LOG:  World deleted in 0.00(0.00)sec.
+15:27:41 LOG:  World stopped in 0.00sec.
+15:27:41 LOG:  Process memory: 3121 MB
+15:27:59 LOG:  OpenSSL 1.1.0e  16 Feb 2017
+15:28:00 ERR:  LVE: 22363
+15:28:10 LOG:  OpenSSL 1.1.0e  16 Feb 2017
+15:28:11 ERR:  LVE: 22363
+15:28:18 LOG:  Application termination mode activated because 'Window close event received'
+15:28:18 LOG:  Timestamp: 2019/10/30 15:28:18
+15:28:18 LOG:  Stopping simulation (duration: 13.489748).
+15:28:18 LOG:  Timestamp: 2019/10/30 15:28:18
+15:28:18 LOG:  Stopping world 'Content/SeriousSam3/Levels/Menu/MenuLevel.wld'.
+15:28:18 LOG:  World deleted in 0.00(0.00)sec.
+15:28:18 LOG:  World stopped in 0.00sec.
+15:28:18 LOG:  Process memory: 3124 MB
+15:28:18 LOG:  Timestamp: 2019/10/30 15:28:18
+15:28:18 LOG:  Stopping simulation (duration: 0).
+15:28:18 LOG:  Timestamp: 2019/10/30 15:28:18
+15:28:18 LOG:  Stopping world 'Content/SeriousSam3/Levels/Menu/MenuLevel.wld'.
+15:28:18 LOG:  World deleted in 0.00(0.00)sec.
+15:28:18 LOG:  World stopped in 0.00sec.
+15:28:18 LOG:  Process memory: 3124 MB
+15:28:18 LOG:  Saving cvars to "UserData/SeriousSam2017.ini".
+15:28:18 LOG:  [Vulkan] Saved 111.70 KB of pipeline cache data.
+15:28:18 LOG:  [Vulkan] Created pipeline cache object with initial size of 111.70 KB.
+15:28:18 LOG:  Clearing fullscreen flag on the window.
+15:28:18 LOG:  Shutting down sound mixer output.
+15:28:18 LOG:  Loaded "libXss.so.1".
+15:28:18 LOG:  resuming screen saver using libXss
+15:28:18 LOG:  Closed connection to dbus
+15:28:18 LOG:  Timestamp: 2019/10/30 15:28:18
+15:28:18 LOG:  Core is shutting down
